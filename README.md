@@ -1,9 +1,25 @@
 # Reconocimiento y análisis de personas en imágenes mediante técnicas de aprendizaje profundo
 
-Una aplicación para entrenar modelos de Yolo v4 y YoloX con distintos hiperparámetros y clasificar las personas de imagenes con los modelos preentrenados disponibles o con los que hayas entrenado.
+Una aplicación MATLAB para entrenar y utilizar modelos YOLOv4 y YOLOX para la detección de personas en entornos naturales, con gestión completa de hiperparámetros y modelos personalizados.
 
+## 🚀 Características principales
 
+- **Entrenamiento flexible**:
+  - Soporte para YOLOv4 y YOLOX
+  - Ajuste de hiperparámetros (tasa de aprendizaje, épocas, tamaño de batch)
+  - Selección de optimizadores (ADAM, SGDM)
+  - Visualización del progreso del entrenamiento
 
+- **Clasificación avanzada**:
+  - Detección en tiempo real con umbral ajustable
+  - Visualización de bounding boxes con colores personalizables
+  - Estadísticas detalladas (confianza media, desviación estándar)
+  - Navegación entre múltiples detecciones
+
+- **Gestión de modelos**:
+  - Biblioteca de modelos preentrenados
+  - Almacenamiento y recuperación de modelos personalizados
+  - Interfaz intuitiva para selección de modelos
 
 
 ## 📸 Screenshots
